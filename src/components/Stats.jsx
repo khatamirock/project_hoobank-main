@@ -12,7 +12,7 @@ const Stats = () => (
         <p className="font-poppins font-normal xs:text-[20.45px] text-[15.45px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
           {stat.title}
         </p>
-        <Meter label={stat.title} value={stat.value} maxValue={stat.total} grd={styles.grd_mnst} />
+        <Meter label={stat.title} value={stat.value} maxValue={stat.total} grd={styles.grd_mnst} round={true} />
       </div>
     ))}
   </section>

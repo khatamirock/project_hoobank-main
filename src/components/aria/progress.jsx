@@ -17,9 +17,10 @@ function Meter(props) {
     // Calculate the width of the progress bar as a percentage
     let percentage = (value - minValue) / (maxValue - minValue);
     let barWidth = `${Math.round(percentage * 100)}%`;
+    const makeRound = props.round ? 'rounded-full' : 'none';
 
     return (
-        <div {...meterProps} style={{ width: 200 }} className='pl-4 pr-6 pt-4 pb-4 text-white text-[15px] font-bold' >
+        <div {...meterProps} style={{ width: 200 }} className='rounded-full pl-2 pr-6 pt-4 pb-4 text-white text-[15px] font-bold' >
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 {label &&
                     (
@@ -34,10 +35,10 @@ function Meter(props) {
                         </span>
                     )}
             </div>
-            <div style={{ height: 10, background: 'lightgray' }}>
-                <div style={{ width: barWidth, height: 10, }} className={`${props.grd}`} />
+            <div style={{ height: 10, background: 'lightgray' }} className={`mt-1 ${makeRound}`}>
+                <div style={{ width: barWidth, height: 10, }} className={`${props.grd} ${makeRound}`} />
             </div>
-        </div>
+        </div >
     );
 }
 
