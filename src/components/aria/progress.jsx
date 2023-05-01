@@ -1,5 +1,5 @@
 import { useMeter } from 'react-aria';
-
+import styles from '../../style';
 
 function Meter(props) {
     let {
@@ -35,7 +35,7 @@ function Meter(props) {
                     )}
             </div>
             <div style={{ height: 10, background: 'lightgray' }}>
-                <div style={{ width: barWidth, height: 10, background: 'green' }} />
+                <div style={{ width: barWidth, height: 10, }} className={`${props.grd}`} />
             </div>
         </div>
     );

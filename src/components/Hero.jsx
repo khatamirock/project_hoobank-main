@@ -4,6 +4,7 @@ import styles from "../style";
 import { discount, robot } from "../assets";
 import Meter from "./aria/progress";
 
+
 const Hero = () => {
   return (
     <section id="home" className={`flex flex-wrap overflow-hidden lg:flex-row flex-col ${styles.paddingY} ${styles.md_fl} ${styles.paddingY}`}>
@@ -45,7 +46,10 @@ const Hero = () => {
 
               <Meter
                 label="CUSTOMER"
-                value={95} />
+                value={95}
+                grd={styles.grd_ros}
+                vai='vai re vaii'
+              />
             </div>
           </div>
 
