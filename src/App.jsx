@@ -34,4 +34,6 @@ const App = () => {
   )
 }
 
+// react-transition-group https://heroicons.com/ && ARIA
+
 export default App
