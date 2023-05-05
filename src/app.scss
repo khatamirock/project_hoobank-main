@@ -1,0 +1,17 @@
+* {
+    padding: 0
+}
+
+.pageContents {
+    background-color: red;
+}
+ 
+
+.main_container {
+    display: flex;
+}
+
+.whatido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,13 @@
+.sidebar_main {
+  padding: 40px;
+}
+
+.sname {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.active {
+  background-color: #7c8dab;
+}
+/*# sourceMappingURL=sidebar.css.map */

@@ -21,6 +21,7 @@ const styles = {
   js_itc: "justify-start items-center",
   grd_gr_bl: "bg-gradient-to-r from-gray-700 via-gray-800 to-black",
   grd_gr_gr: "bg-gradient-to-l from-gray-200 via-gray-400 to-gray-600",
+  grd_home: "bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600",
   grd_mnst: "bg-gradient-to-r from-purple-400 to-yellow-400",
   grd_blsd: "bg-gradient-to-r from-slate-500 to-yellow-100",
   grd_ros: "bg-gradient-to-r from-rose-300 to-rose-500",

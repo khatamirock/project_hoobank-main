@@ -1,23 +1,61 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
-
+import { Websvg, Phonesvg } from "../components/svg";
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    __id: 1,
+    id: "/",
+    title: "ABOUT",
   },
   {
-    id: "features",
-    title: "Features",
+    __id: 2,
+    id: "/resume",
+    title: "RESUME",
   },
   {
-    id: "product",
-    title: "Product",
+    __id: 3,
+    id: "/portfolio",
+    title: "PORTFOLIO",
   },
   {
-    id: "clients",
-    title: "Clients",
+    __id: 4,
+    id: "/contact",
+    title: "CONTACT",
   },
 ];
+
+export const card_aboutme = [
+  {
+    id: "card-1",
+    icon: "<Websvg />",
+    title: "Full-Stack Web Development",
+    content: "I have been working in web development for almost 5 years.I am experienced in both frontend and backend web development. Usually, I prefer to use regular bootstrap and Js for frontend and Django for the backend. I also have some skills in typescript, ES6, vanilla js, jQuery, etc. In the terms of server-side language, I also worked with MySQL, PostgreSQL, MongoDB, and SQLite.    I am proficient in PHP and WordPress sites also. Recently, I have been working on the MERN stack to gather more experiences"
+  },
+  {
+    id: "card-2",
+    icon: "<Phonesvg />",
+    title: "App Development",
+    content: "	App Development I have worked with flutter for both Android and iOS app development. I can make customized UI/Design with provided XD/Figma UI and prefer to use firebase as a database for my app."
+  },
+  {
+    id: "card-3",
+    icon: Websvg,
+    title: "Apprentice Researcher",
+    content: "Recently I have been trying to start research on a few topics. This is a completely new journey without any previous experience of mine. Hope to do well on this challenging journey."
+  }, {
+    id: "card-4",
+    icon: Websvg,
+    title: "Apprentice Researcher",
+    content: "Recently I have been trying to start research on a few topics. This is a completely new journey without any previous experience of mine. Hope to do well on this challenging journey."
+  }, {
+    id: "card-5",
+    icon: Websvg,
+    title: "Apprentice Researcher",
+    content: "Recently I have been trying to start research on a few topics. This is a completely new journey without any previous experience of mine. Hope to do well on this challenging journey."
+  },
+
+
+];
+
 
 export const features = [
   {
