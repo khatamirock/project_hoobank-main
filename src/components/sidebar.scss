@@ -1,6 +1,6 @@
 .sidebar_main {
     padding: 40px;
-
+    padding-left: 0 !important;
 }
 
 .sname {
@@ -9,7 +9,23 @@
 }
 
 .active {
-    background-color: #7c8dab;
+    background-color: #63779b;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.all_links {
+    li {
+        &:hover {
+            background-color: #63779ba9;
+
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+        }
+    }
 }
 
 // hover:bg-[] 

@@ -18,7 +18,7 @@ const Sidebar = () => {
                 <div className="all_links flex justify-center lists text-white font-bold  ">
                     <ul>
                         {navLinks.map((item, inedx) => {
-                            return <li key={item.id} className={`mt-5 mb-5 hover:text-black hover:shadow-md hover:bg-[#b3c2de] p-4 rounded-[15px] 
+                            return <li key={item.id} className={`mt-5 mb-5 hover:text-black hover:bg-[#b3c2de] p-4 
                             ${item.__id === activeId ? 'active' : ''}`}
                                 onClick={() => { setActiveId(item.__id); }}
                             >
